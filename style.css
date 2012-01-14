@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background:url(images/background-tiled-logos.jpg);
+	margin:0;
+}
+
+body {
+	margin: 0;
+}
+
+#container {
+	width: 860px;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 320px;
+	height: 167px;
+	float: left;
+	display: inline;
+	margin: 35px 0 0 10px;
+}
+
+#twitter-widget {
+	width: 300px;
+	float: left;
+	display: inline;
+	margin: 25px 0 0 10px;
+}
+
+#facebook-fanbox {
+	width: 512px;
+	height: 1240px;
+	float: right;
+	display: inline;
+	margin: 25px 10px 0 0;
+}
+
+#event-box {
+	width: 510px;
+	height: 100px;
+	float: right;
+	display: inline;
+	margin: 25px 10px 0 0;
+	text-align: center;
+	background-color: #379EB7;
+	color: #006179;
+	text-shadow: #56bad2 0px 1px 0px;
+	font-family: "verdana";
+	border: solid 1px #006179;
+}
+
+#event-box h1 {
+	font-size: 22px;
+	line-height: 24px;
+	margin: 20px 0 0 0;
+	color: #fff;
+	text-shadow: #1c505d 0px 1px 0px;
+}
+
+#event-box span {
+	font-size: 14px;
+}
+
+#event-box a {
+	color: #004d60;
+	text-decoration: none;
+}
+
+#event-box a:hover {
+	text-decoration: underline;
+}
